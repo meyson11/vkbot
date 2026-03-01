@@ -9,9 +9,9 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from google.oauth2.service_account import Credentials
 
 # ================= НАСТРОЙКИ =================
-VK_TOKEN = os.getenv("vk1.a.8sOIhI8ydfOvaKFRPL9BYvu1A_oGwr1lJ9e-ioX3_8JgFmwnYJEdY2bmZATPGKo7_NWiYRaX2iCXICZbrIlfyOVTZrnFcDk4PruqPVMJFmE_oDyCzJPtOxrGmBIj4nV3bIpN1T_diMpCIDTnlUE7TzmBnLNAySEH2hY-EqEvEJkATyrR0bCLBkfE9kQADXX3sBo3nDiE4y5CXZoachBzig")
-CHAT_ID = int(os.getenv("242"))
-SPREADSHEET_NAME = os.getenv("Криминальная сфера")
+VK_TOKEN = os.getenv("VK_TOKEN")
+CHAT_ID = int(os.getenv("CHAT_ID"))
+SPREADSHEET_NAME = os.getenv("SPREADSHEET_NAME")
 TIMEZONE = pytz.timezone("Europe/Moscow")
 # =============================================
 
