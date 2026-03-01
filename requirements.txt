@@ -1,0 +1,8 @@
+gspread
+google-auth
+vk_api
+requests
+apscheduler
+pytz
+flask
+gunicorn
